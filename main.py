@@ -11,7 +11,7 @@ pprint(sp.me())
 res = sp.devices()
 pprint(res)
 
-sp.start_playback(uris=['spotify:track:1V4jC0vJ5525lEF1bFgPX2'])
+sp.start_playback(uris=['spotify:track:1V4jC0vJ5525lEF1bFgPX2'], device_id='2b944b63ab627f1b075dfc7d4580f8b55f7d67e5')
 sp.volume(100)
 
 #Request Token URL
